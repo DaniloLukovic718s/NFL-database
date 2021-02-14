@@ -1,0 +1,37 @@
+use SQLProjekatNFL;
+GO
+INSERT dbo.Ekipa (NazivEkipe, ImeDrzave, ImeStadiona, KapacitetStadiona)
+VALUES ('Arizona Cardinals', 'Arizona', 'State Farm Stadium', 63400),
+('Atlanta Falcons', 'Georgia', 'Mercedes-Benz Stadium', 71000),
+('Baltimore Ravens', 'Maryland', 'M&T Bank Stadium', 71008),
+('Buffalo Bills', 'New York', 'New Era Field', 71608),
+('Carolina Panthers', 'North Carolina', 'Bank of America Stadium', 75523),
+('Chicago Bears', 'Illinois', 'Soldier Field', 61500),
+('Cincinnati Bengals', 'Ohio', 'Paul Brown Stadium', 65515),
+('Cleveland Browns', 'Ohio', 'First Energy Stadium', 67895),
+('Dallas Cowboys', 'Texas', 'At&T Stadium', 80000),
+('Denver Broncos', 'Colorado', 'Empower Field at Mile High', 76125),
+('Detroit Lions', 'Michigan', 'Ford Field', 65000),
+('Green Bay Packers', 'Wisconsin', 'Lambeau Field', 81441),
+('Houston Texans', 'Texas', 'NRG Stadium', 72220),
+('Indianapolis Colts', 'Indiana', 'Lucas Oil Stadium', 67000),
+('Jacksonville Jaguars', 'Florida', 'TIAA Bank Field', 69132),
+('Kansas City Chiefs', 'Missouri', 'Arrowhead Stadium', 76416),
+('Los Angeles Chargers', 'California', 'Dignity Health Sports Park', 27000),
+('Los Angeles Rams', 'California', 'Los Angeles Coliseum', 78500),
+('Miami Dolphins', 'Florida', 'Hard Rock Stadium', 65326),
+('Minnesota Vikings', 'Minnesota', 'U.S. Bank Stadium', 66655),
+('New England Patriots', 'Massachusetts', 'Gillette Stadium', 66829),
+('New Orleans Saints', 'Louisiana', 'Mercedes-Benz Superdome', 73208),
+('New York Giants', 'New Jersey', 'MetLife Stadium', 82500),
+('New York Jets', 'New Jersey', 'MetLife Stadium', 82500),
+('Las Vegas Raiders', 'Nevada', 'Allegiant Stadium', 65000),
+('Philadelphia Eagles', 'Pennsylvania', 'Lincoln Financial Field', 69596),
+('Pittsburgh Steelers', 'Pennsylvania', 'Heinz Field', 68400),
+('San Francisco 49ers', 'California', 'Levis Stadium', 68500),
+('Seattle Seahawks', 'Washington', 'CenturyLink Field', 69000),
+('Tampa Bay Buccaneers', 'Florida', 'Raymond James Stadium', 65890),
+('Tennessee Titans', 'Tennessee', 'Nissan Stadium', 69143),
+('Washington Redskins', 'Maryland', 'FedExField', 82000);
+SELECT * FROM dbo.Ekipa
+GO
